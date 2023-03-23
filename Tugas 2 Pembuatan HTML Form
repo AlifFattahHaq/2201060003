@@ -1,1 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Biodata</title>
+  </head>
+  <body>
+    <h2 style="text-align:center">FORM BIODATA </h2>
+    <hr>
 
+    <form action="proses.php" method="POST">
+    <table border=0>
+      <tr>
+        <td>NIM</td>
+        <td>:</td>
+        <td>
+          <input type=text name=nim>
+        </td>
+      </tr>
+      <tr>
+        <td>NAMA</td>
+        <td>:</td>
+        <td>
+          <input type=text name=Nama size=30>
+        </td>
+      </tr>
+      <tr>
+        <td>Jenis Kelamin</td>
+        <td>:</td>
+        <td>
+          <input type=radio name=JK value=PRIA>Pria 
+          <input type=radio name=JK value=WANITA>Wanita
+        </td>
+      </tr>
+      <tr>
+        <td>JURUSAN</td>
+        <td>:</td>
+        <td>
+          <select name="RW">
+            <option value="Pilih">Pilih</option>
+            <option value="D3SI">D3SI</option>
+        </td>
+        </select>
+      </tr>
+      <tr>
+        <td>HOBBY</td>
+        <td>:</td>
+        <td>
+          <input type=radio name="jurusan" value="Komputer">Komputer
+          <input type=radio name="jurusan" value="Musik">Musik
+          <input type=radio name="jurusan" value="Olahraga">Olahraga
+          <input type=radio name="jurusan" value="Travelling">Travelling
+        </td>
+      </tr>
+
+      <tr>
+        <td>CATATAN</td>
+        <td>:</td>
+        <td>
+        <input type=textfield name=catatan size="30">
+        </td>
+      </tr>
+
+      <tr>
+        <td>FOTO</td>
+        <td>:</td>
+        <td>
+            <input type="reset" name="Teu janten" value="Choose file"> No file chosen
+        </td>
+      </tr>
+
+      <tr>
+        <td>EMAIL</td>
+        <td>:</td>
+        <td>
+          <input type=textfield name=catatan size=30>
+        </td>
+      </tr>
+
+      <tr>
+        <td>SANDI LOGIN</td>
+        <td>:</td>
+        <td>
+          <input type=textfield name=catatan size=30>
+        </td>
+      </tr>
+
+      <tr>
+        <td>ULANGI SANDI LOGIN </td>
+        <td>:</td>
+        <td>
+          <input type=textfield name=catatan size=30>
+        </td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td></td>
+        <td>
+          <input type="submit" name="Submit" value="Simpan">
+          <input type="reset" name="Teu janten" value="Batal">
+          <input type="reset" name="Teu janten" value="Peringatan">
+      </tr>
+      </form>
+    </table>
+  </body>
+</html>
