@@ -1,67 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-        <h1> Belajar HTML </h1>
+<html>
+  <head>
+    <title>Form Biodata</title>
+  </head>
+  <body>
+    <h2 style="text-align:center">FORM BIODATA </h2>
+    <hr>
 
-        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit id accusantium, 
-            sed quo deserunt facilis porro in est minima numquam velit nostrum iure facere 
-            adipisci nemo dolorum natus veritatis eius!</p>
+    <form action="proses.php" method="POST">
+    <table border=0>
+      <tr>
+        <td>NIM</td>
+        <td>:</td>
+        <td>
+          <input type=text name=nim>
+        </td>
+      </tr>
+      <tr>
+        <td>NAMA</td>
+        <td>:</td>
+        <td>
+          <input type=text name=Nama size=30>
+        </td>
+      </tr>
+      <tr>
+        <td>Jenis Kelamin</td>
+        <td>:</td>
+        <td>
+          <input type=radio name=JK value=PRIA>Pria 
+          <input type=radio name=JK value=WANITA>Wanita
+        </td>
+      </tr>
+      <tr>
+        <td>JURUSAN</td>
+        <td>:</td>
+        <td>
+          <select name="RW">
+            <option value="Pilih">Pilih</option>
+            <option value="D3SI">D3SI</option>
+        </td>
+        </select>
+      </tr>
+      <tr>
+        <td>HOBBY</td>
+        <td>:</td>
+        <td>
+          <input type=radio name="jurusan" value="Komputer">Komputer
+          <input type=radio name="jurusan" value="Musik">Musik
+          <input type=radio name="jurusan" value="Olahraga">Olahraga
+          <input type=radio name="jurusan" value="Travelling">Travelling
+        </td>
+      </tr>
 
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perferendis cupiditate impedit voluptatem necessitatibus dolor, incidunt laboriosam eveniet
-            consequatur porro et consectetur voluptas iste in velit quibusdam quae iusto beatae ducimus!
-        </p>
+      <tr>
+        <td>CATATAN</td>
+        <td>:</td>
+        <td>
+        <input type=textfield name=catatan size="30">
+        </td>
+      </tr>
 
+      <tr>
+        <td>FOTO</td>
+        <td>:</td>
+        <td>
+            <input type="reset" name="Teu janten" value="Choose file"> No file chosen
+        </td>
+      </tr>
 
-        <ul type=" circle "> 
-            <li>pertama</li>
-            <li>kedua</li>
-        </ul>
+      <tr>
+        <td>EMAIL</td>
+        <td>:</td>
+        <td>
+          <input type=textfield name=catatan size=30>
+        </td>
+      </tr>
 
-        
-   <ol type="A" start="3">
-        <li>pertama</li>
-        <li>kedua</li>
-        <li>ketiga</li>
-   </ol>
-        
-   <hr> Gambar <br>
+      <tr>
+        <td>SANDI LOGIN</td>
+        <td>:</td>
+        <td>
+          <input type=textfield name=catatan size=30>
+        </td>
+      </tr>
 
-   <img src="img/liberty.jpg" title="google thamnail"  alt=" patung liberty " width="20%" >
+      <tr>
+        <td>ULANGI SANDI LOGIN </td>
+        <td>:</td>
+        <td>
+          <input type=textfield name=catatan size=30>
+        </td>
+      </tr>
 
-
-   <hr> Table <br>
-
-   <table border="1" width="25%" align="center" >
-    <thead></thead>
-    <tr>
-        <th>No</th>
-        <th>Nama</th>
-        <th>Alamat</th>
-        
-    </tr>
-</thead>
-<tbody>
-    <tr>
-        <td>1</td>
-        <td>alif</td>
-        <td>mataram</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>fila</td>
-        <td>lotim</td>
-    </tr>
-</tbody>
-   </table>
-   
-
-</body>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>
+          <input type="submit" name="Submit" value="Simpan">
+          <input type="reset" name="Teu janten" value="Batal">
+          <input type="reset" name="Teu janten" value="Peringatan">
+      </tr>
+      </form>
+    </table>
+  </body>
 </html>
