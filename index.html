@@ -1,48 +1,49 @@
 <!DOCTYPE html>
 <html>
+  <link rel="stylesheet" href="style.css">
   <head>
     <title>Form Biodata</title>
   </head>
   <body>
-    <h2 style="text-align:center">FORM BIODATA </h2>
+    <h2 class="font satu" style="text-align:center" >form biodata </h2>
     <hr>
 
     <form action="proses.php" method="POST">
     <table border=0>
       <tr>
-        <td>NIM</td>
+        <td class="tiga">nim</td>
         <td>:</td>
         <td>
-          <input type=text name=nim>
+          <input class="kolom" type=text name=nim>
         </td>
       </tr>
       <tr>
-        <td>NAMA</td>
+        <td class="tiga">nama</td>
         <td>:</td>
         <td>
-          <input type=text name=Nama size=30>
+          <input class="kolom" type=text name=Nama size=30>
         </td>
       </tr>
       <tr>
-        <td>JENIS KELAMIN</td>
+        <td class="tiga">jenis kelamin</td>
         <td>:</td>
         <td>
-          <input type=radio name=JK value=PRIA>Pria 
-          <input type=radio name=JK value=WANITA>Wanita
+          <input class="kotak" type=radio name=JK value=PRIA>Pria 
+          <input class="kotak" type=radio name=JK value=WANITA>Wanita
         </td>
       </tr>
       <tr>
-        <td>JURUSAN</td>
+        <td class="tiga">jurusan</td>
         <td>:</td>
         <td>
-          <select name="Pilih">
+          <select class="kotak" name="Pilih">
             <option value="Pilih">Pilih</option>
             <option value="D3SI">D3SI</option>
         </td>
         </select>
       </tr>
       <tr>
-        <td>HOBBY</td>
+        <td class="tiga">hobby</td>
         <td>:</td>
         <td>
           <input type="checkbox" value="Komputer">Komputer
@@ -53,15 +54,15 @@
       </tr>
 
       <tr>
-        <td>CATATAN</td>
+        <td class="tiga">catatan</td>
         <td>:</td>
         <td>
-        <textarea name="r_p"></textarea>
+        <textarea class="kolom" name="r_p"></textarea>
         </td>
       </tr>
 
       <tr>
-        <td>FOTO</td>
+        <td class="tiga">foto</td>
         <td>:</td>
         <td>
             <input type="file" name="file" size="30"> 
@@ -69,26 +70,26 @@
       </tr>
 
       <tr>
-        <td>EMAIL</td>
+        <td class="tiga">email</td>
         <td>:</td>
         <td>
-          <input type=textfield name=Email size=30>
+          <input class="kolom" type=textfield name=Email size=30>
         </td>
       </tr>
 
       <tr>
-        <td>SANDI LOGIN</td>
+        <td class="tiga">sandi login</td>
         <td>:</td>
         <td>
-          <input type=textfield name=sandilogin size=30>
+          <input class="kolom" type=textfield name=sandilogin size=30>
         </td>
       </tr>
 
       <tr>
-        <td>ULANGI SANDI LOGIN </td>
+        <td class="tiga">ulang sandi login </td>
         <td>:</td>
         <td>
-          <input type=textfield name=ulangsandilogin size=30>
+          <input class="kolom" type=textfield name=ulangsandilogin size=30>
         </td>
       </tr>
 
@@ -96,9 +97,9 @@
         <td></td>
         <td></td>
         <td>
-          <input type="submit" name="Submit" value="Simpan">
-          <input type="reset" name="Teu janten" value="Batal">
-          <input type="reset" name="Teu janten" value="Peringatan">
+          <input class="kotak" type="submit" name="Submit" value="Simpan">
+          <input class="gelap" type="reset" name="reset" value="Batal">
+          <input class="terang" type="reset" name="reset" value="Peringatan">
       </tr>
       </form>
     </table>

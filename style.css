@@ -1,0 +1,29 @@
+.font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: goldenrod;
+}
+
+.kolom{
+    border: 2px solid darkgoldenrod;
+    background-color: yellow;
+}
+
+.kotak{
+    background-color: aqua;
+}
+
+.gelap{
+    background-color: brown;
+}
+
+.terang{
+    background-color: yellowgreen;
+}
+
+.tiga {
+    text-transform: capitalize;
+}
+
+.satu{
+    text-transform: uppercase;
+}
